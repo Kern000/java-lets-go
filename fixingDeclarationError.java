@@ -5,9 +5,11 @@ public class fixingDeclarationError {
         char genre = 'C';
         double runtime = 1.58;
         boolean isPG = true;
+        int $munee = 5000;
+        char _weirdSingleCharVariable = '!';
 
         System.out.println(
                 "Year = " + year + "\ntitle = " + title + "\ngenre = " + genre + "\nruntime = " + runtime + "\nisPG = "
-                        + isPG);
+                        + isPG + "\nmunee = " + $munee + "\nsingle char variable = " + _weirdSingleCharVariable);
     }
 }
