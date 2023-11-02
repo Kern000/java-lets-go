@@ -15,5 +15,7 @@ public class Train {
         System.out.println("train color is " + train001.color + ", " + "train type is electric? " + train001.isElectric
                 + ", " + "train mileage is " + train001.mileagePerGigaWatt);
     }
+    // static methods are accessed with the class, doesn't need instance to be
+    // static methods cannot access instance-specific fields
 
 }
