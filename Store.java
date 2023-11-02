@@ -18,4 +18,8 @@ public class Store {
             lemonadeStore.advertise();
         }
     }
+    // note java scoping is stricter and can only be accessed inside a method itself
+    // like constructor overloading, there is method overloading
+    // can have same method name, as long as parameter list diff
+
 }
