@@ -33,6 +33,27 @@ public class Order {
     }
   }
 
+  /*
+   * public double calculateShipping() {
+   * double shippingCost;
+   * 
+   * switch(shipping) {
+   * case "Regular":
+   * shippingCost = 0;
+   * break;
+   * case "Express":
+   * shippingCost = 1.75;
+   * break;
+   * default:
+   * shippingCost = 0.5;
+   * break;
+   * }
+   * return shippingCost;
+   * }
+   */
+
+  // Can use switch as opposed to if-else
+
   public static void main(String[] args) {
 
     Order book = new Order(true, 29.99, "DHL Express");
