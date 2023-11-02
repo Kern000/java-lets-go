@@ -13,6 +13,9 @@ public class Store {
 
     public static void main(String[] args) {
         Store lemonadeStore = new Store("lemonade");
-        lemonadeStore.advertise();
+        int count = 3;
+        for (int i = 0; i < count; i++) {
+            lemonadeStore.advertise();
+        }
     }
 }
