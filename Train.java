@@ -1,12 +1,19 @@
 public class Train {
 
-    String color = "blue";
-    boolean isElectric = true;
-    int mileagePerGigaWatt = 5;
+    String color;
+    boolean isElectric;
+    int mileagePerGigaWatt;
+
+    public Train(String trainColor, boolean trainType, int trainMileage) {
+        color = trainColor;
+        isElectric = trainType;
+        mileagePerGigaWatt = trainMileage;
+    }
 
     public static void main(String[] args) {
-        Train train001 = new Train();
-        System.out.println(train001.color);
+        Train train001 = new Train("gray", true, 40);
+        System.out.println("train color is " + train001.color + ", " + "train type is electric? " + train001.isElectric
+                + ", " + "train mileage is " + train001.mileagePerGigaWatt);
     }
 
 }
