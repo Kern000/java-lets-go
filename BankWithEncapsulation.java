@@ -1,4 +1,6 @@
 public class BankWithEncapsulation {
+
+    // instance variables
     private CheckingAccount accountOne;
     private CheckingAccount accountTwo;
 

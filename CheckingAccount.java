@@ -1,5 +1,6 @@
 public class CheckingAccount {
 
+    // instance variables
     private String name;
     private double balance;
     private String accountId;
